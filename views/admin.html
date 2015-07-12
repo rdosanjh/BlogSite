@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script type="text/javascript" src="javascripts/material.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/toastr.min.js"></script>
+  <link rel="stylesheet" href="stylesheets/material.css"></link>
+  <link rel="stylesheet" href="stylesheets/admin.css"></link>
+    <link rel="stylesheet" href="stylesheets/toastr.min.css"></link>
+</head>
+<body>
+  <div class="mdl-card mdl-shadow--2dp content">
+    <form id="adminForm">
+      <div class="mdl-textfield mdl-js-textfield fullWidthInput">
+        <input class="mdl-textfield__input" type="text" id="title" />
+        <label class="mdl-textfield__label" for="title">Title...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield fullWidthInput">
+        <textarea class="mdl-textfield__input" type="text" rows= "15" id="article" ></textarea>
+        <label class="mdl-textfield__label" for="article">Article body...</label>
+      </div>
+      <button type="submit" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored pull-right">
+        <i class="material-icons">add</i>
+      </button>
+    </form>
+  </div>
+  <script type="text/javascript" src="javascripts/admin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+  background-image: url("/images/adminBackground.jpg");
+  background-size:cover;
+}
+
+.content{
+  width: 900px;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.fullWidthInput{
+  width: 100%;
+}
+
+.pull-right{
+  float: right;
+}
